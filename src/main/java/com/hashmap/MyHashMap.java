@@ -1,5 +1,6 @@
 package com.hashmap;
 
+/**/
 public class MyHashMap<K, V> {
     private final LinkedList myLinkedList;
 

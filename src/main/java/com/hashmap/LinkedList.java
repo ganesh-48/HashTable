@@ -4,7 +4,7 @@ public class LinkedList<K> {
     public INode head;
     public INode tail;
 
-    public LinkedList() {
+    public MyLinkedList() {
         this.head = null;
         this.tail = null;
     }
@@ -98,12 +98,13 @@ public class LinkedList<K> {
             if (nextNode != tail) {
                 findNode.setNext(tempNode);
                 System.out.println("Linked List size after deleting element : " + size());
+
             }
         }
     }
 
     @Override
     public String toString() {
-        return "LinkedListNodes{" + head + "}";
+        return "LinkedList{" + head + "}";
     }
 }
